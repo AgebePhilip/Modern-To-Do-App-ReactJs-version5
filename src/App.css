@@ -1,0 +1,87 @@
+
+.App{
+  background-color: #3f3160;
+  min-height:500px;
+  width: 400px;
+  margin: 45px  auto;
+  margin-bottom: 4rem;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  .App img{
+    width: 20%;
+    height: 30%;
+    margin-left: 3rem;
+  }
+.App h1{
+  font-size: 2rem;
+}
+.App p{
+  color: white;
+  font-size: 1rem;
+}
+label{
+  color: white;
+}
+  body{
+    background-color: #9266ff;
+  }
+html,
+#root {
+  height: 100%; 
+}
+.todo-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: aliceblue;
+}
+.todo-form input{ 
+  color: #fff;
+}
+
+.todo-form input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+.todo-form label{
+  color:whitesmoke;
+  text-align: center;
+}
+.close{
+  color: orange;
+  background-color: greenyellow;
+  border-radius: 5rem;
+}
+.close:hover{
+ color: red;
+ background-color: hotpink;
+}
+
+.todo-form button{
+  background-color:greenyellow;
+  color: black;
+  border-radius: 2rem;
+  margin-left: 1rem;
+}
+.todo-form button:hover{
+  color: white;
+  background-color: purple;
+}
+li {
+  text-align: initial;
+}
+
+
+
+
